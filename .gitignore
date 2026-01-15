@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset (optional, kalau mau private)
+data/raw/
+data/processed/
+
+# Model hasil training
+models/*.h5
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.logS
