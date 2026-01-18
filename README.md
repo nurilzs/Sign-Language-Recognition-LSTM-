@@ -90,7 +90,7 @@ Setiap gesture memiliki file audio `.wav` yang akan diputar **saat confidence st
 ---
 
 ## Catatan Penting
-
+* Pake python versi 3.8 / 3.9
 * Dataset & model **tidak dipublikasikan** (private)
 * Model dapat dilatih ulang dengan gesture tambahan
 
