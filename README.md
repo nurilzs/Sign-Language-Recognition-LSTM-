@@ -4,7 +4,7 @@ Real-time **Sign Language Recognition** menggunakan **MediaPipe Hands** dan **LS
 
 ---
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
 * Realtime hand tracking (2 tangan)
 * Gesture statis & dinamis
@@ -14,7 +14,7 @@ Real-time **Sign Language Recognition** menggunakan **MediaPipe Hands** dan **LS
 
 ---
 
-## 📂 Struktur Project
+## Struktur Project
 
 ```
 signlag_ml/
@@ -34,7 +34,7 @@ signlag_ml/
 
 ---
 
-## 🧠 Konsep Model
+## Konsep Model
 
 * Input: sequence `(30, 126)` → 30 frame, 2 tangan (21 landmark × 3 koordinat)
 * Model: LSTM → Dense Softmax
@@ -44,9 +44,9 @@ Gesture dinamis dibedakan melalui **perubahan temporal antar frame**, bukan pose
 
 ---
 
-## 🎥 Cara Menjalankan
+## Cara Menjalankan
 
-### 1️⃣ Install Dependency
+### 1. Install Dependency
 
 ```bash
 python -m venv venv
@@ -54,7 +54,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Realtime Detection
+### 2️. Realtime Detection
 
 ```bash
 python scripts/realtime_predict.py
@@ -62,13 +62,13 @@ python scripts/realtime_predict.py
 
 ---
 
-## 🔊 Audio Output
+## Audio Output
 
 Setiap gesture memiliki file audio `.wav` yang akan diputar **saat confidence stabil**.
 
 ---
 
-## 🛠 Solusi Salah Deteksi Gesture
+## Solusi Salah Deteksi Gesture
 
 ### Masalah Umum:
 
@@ -89,14 +89,14 @@ Setiap gesture memiliki file audio `.wav` yang akan diputar **saat confidence st
 
 ---
 
-## 📌 Catatan Penting
+## Catatan Penting
 
 * Dataset & model **tidak dipublikasikan** (private)
 * Model dapat dilatih ulang dengan gesture tambahan
 
 ---
 
-## 🚀 Pengembangan Selanjutnya
+## Pengembangan Selanjutnya
 
 * Left / Right hand separation
 * Transformer-based sequence model
@@ -104,7 +104,7 @@ Setiap gesture memiliki file audio `.wav` yang akan diputar **saat confidence st
 
 ---
 
-## 👤 Author
+## Author
 
 **Nuril Aisyahroni**
 Machine Learning & Computer Vision Enthusiast
